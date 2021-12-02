@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-decoration: none;
+}
+/* MAIN GRID */
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 30px 1fr 1fr 30px;
+}
+header {
+  display: grid;
+  background-color: rgb(1, 20, 52);
+}
+main {
+  display: grid;
+  padding: 10px;
+  margin: 20px 80px 20px 80px;
+}
+
+/* HERO SECTION */
+.hero-section {
+  display: grid;
+}
+.hero-image {
+  width: 100%;
+}
+/* MAIN SECTION */
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  gap: 10px;
+}
+
+/* CARD DETAILS */
+.card-container {
+  display: grid;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 330px;
+  line-height: 0.8;
+}
+.card-logo {
+  position: absolute;
+  top: 0px;
+  left: 145px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.card-cover {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.github-logo {
+  position: relative;
+  top: 0;
+  left: 120px;
+}
+.twitter-logo {
+  position: relative;
+  top: 0;
+  left: 120px;
+}
+article p {
+  width: 18ch;
+  padding: 10px;
+  
+}
+
+/* BOTTOM SECTION */
+footer {
+  display: grid;
+  background-color: rgb(1, 20, 52);
+}
+
+/* DETAILS PAGE */
+
+.detail__hero-image {
+  position: absolute;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+  position: relative;
+  top: -30px;
+  left: 120px;
+}
+
+.p1,
+.p2 {
+  background-color: rgb(39, 109, 241);
+  color: white;
+}
+
+.p1 {
+  text-align: right;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 120px;
+}
+
+.p2 {
+  text-align: right;
+  margin-left: 200px;
+  position: relative;
+  top: 0;
+  left: 380px;
+}
+
+.detail-main {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+}
+
+.detail-main article {
+  display: grid;
+}
